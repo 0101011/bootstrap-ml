@@ -4,6 +4,7 @@ def Task(cls):
 
   # Initialize encoder params.
   ep = p.encoder
+  
   # Data consists 240 dimensional frames (80 x 3 frames), which we
   # re-interpret as individual 80 dimensional frames. See also,
   # LibrispeechCommonAsrInputParams.
@@ -13,6 +14,7 @@ def Task(cls):
   ep.conv_filter_shapes = [(3, 3, 1, 32), (3, 3, 32, 32)]
   ep.conv_filter_strides = [(2, 2), (2, 2)]
   ep.cnn_tpl.params_init = py_utils.WeightInit.Gaussian(0.001)
+  
   # Disable conv LSTM layers.
   ep.num_conv_lstm_layers = 0
 
