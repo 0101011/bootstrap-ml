@@ -1,6 +1,6 @@
 # Bootstrap ML
 
-![Bootstrap ML Logo](logo.jpg)
+![Bootstrap ML Logo](logo.png)
 
 **Bootstrap ML** is a comprehensive collection of pre-written code for machine learning and deep learning use cases, all in one convenient place. Whether you're a seasoned practitioner or just starting your ML journey, this repository provides a solid foundation to build upon.
 
